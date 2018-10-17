@@ -3,3 +3,115 @@
 body {
   font-family: Lato;
 }
+
+/* Color palette */
+:root {
+  --dark: #172735;
+  --white: #ffffff;
+  --dark-mint: #4bcc8c;
+  --blue-purple: #5f35d4;
+  --dark-sky-blue: #26b6eb;
+  --cool-grey: #979da4;
+  --pale-grey: #f3f4f5;
+  --silver: #e7e9ea;
+}
+
+/* Text styles */
+
+.Page-Title {
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 1.23;
+  letter-spacing: 0.6px;
+  color: var(--white);
+}
+
+.Section-Title-Black {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--dark);
+}
+
+.Section-Title {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--dark);
+}
+
+.Section-Title-White {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--white);
+}
+
+.Card-Title {
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 1.16;
+  letter-spacing: 0.4px;
+  color: var(--white);
+}
+
+.Section-Subtitle {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.13;
+  color: var(--dark);
+}
+
+.Quote {
+  font-family: CrimsonText;
+  font-size: 28px;
+  line-height: 1.61;
+  text-align: center;
+  color: var(--dark);
+}
+
+.Card-Title-Small {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.33;
+  color: var(--white);
+}
+
+.Carousel-Title {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.27;
+  text-align: center;
+  color: var(--dark);
+}
+
+.Tagline {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--white);
+}
+
+.Text-White {
+  font-size: 14px;
+  line-height: 2.29;
+  color: var(--white);
+}
+
+.Text {
+  font-size: 14px;
+  line-height: 2.29;
+  color: var(--dark);
+}
+
+.Footer-Subtitle {
+  font-size: 14px;
+  line-height: 2.57;
+  color: var(--cool-grey);
+}
