@@ -2,6 +2,10 @@ body {
   font-family: Lato, sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 /* Color palette */
 :root {
   --dark: #172735;
@@ -22,6 +26,7 @@ body {
   line-height: 1.23;
   letter-spacing: 0.6px;
   color: var(--white);
+  text-align: left;
 }
 
 .Section-Title-Black {
@@ -51,6 +56,10 @@ body {
   color: var(--white);
 }
 
+.contact .Section-Title-White {
+  text-align: left;
+}
+
 .Card-Title {
   font-size: 38px;
   font-weight: 900;
@@ -64,6 +73,7 @@ body {
   font-weight: bold;
   line-height: 1.13;
   color: var(--dark);
+  text-align: left;
 }
 
 .Quote {
@@ -116,4 +126,9 @@ body {
 
 .dark {
   background: var(--dark);
+}
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
 }
