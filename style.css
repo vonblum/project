@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
 body {
-  font-family: Lato;
+  font-family: Lato, sans-serif;
 }
 
 /* Color palette */
@@ -114,4 +112,8 @@ body {
   font-size: 14px;
   line-height: 2.57;
   color: var(--cool-grey);
+}
+
+.dark {
+  background: var(--dark);
 }
