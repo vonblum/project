@@ -162,3 +162,42 @@ h1 {
 }
 
 /* Our Work card*/
+
+.card {
+  background-color: var(--dark-mint);
+  padding: 50px;
+  min-height: 310px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.case-study {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  color: var(--white);
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  padding-bottom: 6px;
+}
+
+.card h2 {
+  max-width: 426px;
+}
+
+.orange {
+  background-color: #ff7200;
+}
+
+.pink {
+  background-color: #e23356;
+}
+
+.green {
+  background-color: #6eb152;
+}
+
+.black {
+  background-color: #282a28;
+}
