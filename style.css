@@ -201,3 +201,53 @@ h1 {
 .black {
   background-color: #282a28;
 }
+
+/*Meet the Team Grid*/
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 288px 288px;
+  grid-column-gap: 48px;
+  grid-row-gap: 24px;
+}
+
+.grid-card {
+  background-color: var(--dark-mint);
+  padding: 25px;
+}
+
+.grid-card:nth-child(2n) {
+  background-color: var(--blue-purple);
+}
+
+/*Book Grid*/
+
+.book-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 48px;
+}
+
+.book-grid img {
+  grid-row: 1 / span 2;
+}
+
+.book-grid a {
+  align-self: end;
+  justify-self: start;
+}
+
+.button {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: var(--white);
+  background-color: var(--dark-mint);
+}
+
+.button-blue {
+  background-color: var(--dark-sky-blue);
+}
