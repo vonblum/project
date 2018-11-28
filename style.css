@@ -11,6 +11,11 @@
 }
 
 /* Text styles */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Lato, sans-serif;
 }
@@ -26,6 +31,31 @@ h1 {
   letter-spacing: 0.6px;
   color: var(--white);
   text-align: left;
+  margin-top: 169px;
+  max-width: 624px;
+}
+
+.Page-Title span {
+  color: var(--dark-mint);
+}
+
+.Page-Subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--white);
+  margin-top: 35px;
+  margin-bottom: 83px;
+}
+
+.Page-CTA {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--dark-mint);
+  text-decoration: none;
+  border: solid 1px var(--dark-mint);
+  padding: 12px 50px;
 }
 
 .Section-Title-Black {
@@ -35,6 +65,7 @@ h1 {
   letter-spacing: 0.4px;
   text-align: center;
   color: var(--dark);
+  margin-bottom: 60px;
 }
 
 .Section-Title {
@@ -132,10 +163,27 @@ h1 {
   margin: 0 auto;
 }
 
+.light {
+  margin-bottom: 120px;
+}
+
+.slider {
+  background-color: #fbfbfb;
+  height: 348px;
+  border-top: solid 1px var(--silver);
+  border-bottom: solid 1px var(--silver);
+  padding: 45px 0;
+}
+
 /* Menu */
 
 .hero {
   padding: 56px 0 80px;
+  background-image: url(images/top-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 825px;
+  margin-bottom: 120px;
 }
 
 .menu {
@@ -169,6 +217,8 @@ h1 {
   min-height: 310px;
   margin-bottom: 40px;
   position: relative;
+  height: 409px;
+  border-radius: 8px;
 }
 
 .case-study {
@@ -180,6 +230,7 @@ h1 {
   text-decoration: none;
   border-bottom: 2px solid;
   padding-bottom: 6px;
+  font-weight: bold;
 }
 
 .card h2 {
@@ -188,18 +239,28 @@ h1 {
 
 .orange {
   background-color: #ff7200;
+  background-image: url(images/nuru-bg.png)
 }
 
 .pink {
   background-color: #e23356;
+  background-image: url(images/stylelike-mockup.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .green {
   background-color: #6eb152;
+  background-image: url(images/liligo-mockups.png);
+  background-repeat: no-repeat;
+  background-position: right -15px top -10px;
 }
 
 .black {
   background-color: #282a28;
+  background-image: url(images/hbo-mockup.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 /*Meet the Team Grid*/
@@ -215,6 +276,8 @@ h1 {
 .grid-card {
   background-color: var(--dark-mint);
   padding: 25px;
+  border-radius: 4px;
+  box-shadow: 0 6px 20px 0 rgba(23, 39, 53, 0.08);
 }
 
 .grid-card:nth-child(2n) {
@@ -250,4 +313,61 @@ h1 {
 
 .button-blue {
   background-color: var(--dark-sky-blue);
+}
+
+/* Our Team */
+
+.our-team {
+  background-image: url(images/bg-team.jpg);
+  height: 900px;
+  padding: 64px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contact */
+
+.contact {
+  height: 537px;
+}
+
+.contact .wrap {
+  height: 100%;
+  background-image: url(images/pattern-light.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.contact .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 537px;
+  grid-column-gap: 24px;
+}
+
+.contact .grid-item {
+
+}
+
+.contact .photo {
+  width: 116px;
+  height: 116px;
+  background-color: var(--dark-mint);
+  border-radius: 50%;
+}
+
+.contact .grid-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact .plus {
+  margin: 0 48px;
+  color: var(--white);
+}
+
+.contact .photos {
+
 }
